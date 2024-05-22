@@ -1,0 +1,3 @@
+display 
+tag <div> dan <span> tidak memiliki arti apapun keduanya digunakan untuk mengelompokkan tag-tag HTML dan memberikan informasi terhadap tag-tag tersebut
+defenisi = setiap tag pada HTML berada di dalam sebuah KOTAK. properti display pada CSS mengatur perilaku dari kotak tersebut
