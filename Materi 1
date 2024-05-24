@@ -1,3 +1,21 @@
 display 
 tag <div> dan <span> tidak memiliki arti apapun keduanya digunakan untuk mengelompokkan tag-tag HTML dan memberikan informasi terhadap tag-tag tersebut
 defenisi = setiap tag pada HTML berada di dalam sebuah KOTAK. properti display pada CSS mengatur perilaku dari kotak tersebut
+display terbagai  menjadi 4 bagian yaitu :
+*inline
+> Elemen HTML yang secara default tidak menambahkan baris baru ketika dibat
+> Lebar dan tinggi elemennya sebesar konten yang ada di dalamnya
+> Kita tidak dapat mengatur tinggi dan lebaran dari elemen inline
+> Margin dan padding hanya mempengaruhi elemen secara horizontal tidak vertikal
+elemen inline
+> b, strong, i, em, a, sapan, sub, sup, button, input, label, select, textarea,
+*inline-block
+> Tidak ada elemen yang secara default memiliki properti display : inline-block;
+> Kita harus ubah secara manal properti tersebut
+> Perilaku dasarnya sama dengan elemen inline
+> Perbedaan, elemen inline-block dapat kita atur tinggi dan lebarnya
+*block
+> Elemen HTML yang secara default menambahkan baris baru ketika dibuat
+> Jika tidak diatur lebar-nya, maka lebar default dari elemen block akan memenuhi lebar dari browser/parent-nya
+> Kita dapat mengatur tinggi dan lebar dari elemen block 
+> Di dalam elemen block, kita dapat menyimpang tag dengan elemen inline, inline-block, atau bahkan elemen block lagi
